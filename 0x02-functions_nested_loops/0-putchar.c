@@ -1,12 +1,9 @@
-#include<main.h>
-#include<unistd.h>
+#include "main.h"
 /**
- * main - is the main entry for the program
- * _putchar: writes the character c to stdout
- * @c: The character to print
+ * main-is the main entry of the program
+ * _putchar: print the alphabets putchar
  *
- * Return: On success 1.
- * On error, -1 is returned and errno is set appropriately
+ * Return: always 0
  */
 int main(void)
 {
